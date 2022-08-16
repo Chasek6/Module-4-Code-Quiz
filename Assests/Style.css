@@ -18,6 +18,7 @@ header {
 
 }
 
+
 a {
      color:#ff930f;
     height: auto;
@@ -45,6 +46,16 @@ a:link {
 main {
     flex-wrap: wrap-reverse;
     font-family: 'merienda', cursive;
+}
+html {
+    background: hsla(12, 84%, 68%, 1);
+
+background: linear-gradient(90deg, hsla(12, 84%, 68%, 1) 0%, hsla(343, 100%, 66%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(12, 84%, 68%, 1) 0%, hsla(343, 100%, 66%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(12, 84%, 68%, 1) 0%, hsla(343, 100%, 66%, 1) 100%);
+
 }
 
 .center-title {
