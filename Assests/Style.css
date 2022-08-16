@@ -1,0 +1,33 @@
+.center-title {
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+}
+
+
+
+.container-btn {
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+  
+  .inside-btn {
+    font-family: 'Open Sans';
+    color: #1dbde6;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #000000;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .inside-btn:hover {
+    color: #882b2b;
+    background: #f5bfd7;
+    border-color: #f1515e;
+    transition: all 0.4s ease 0s;
+  }
+  .input-btn {
+    font-weight: bolder;
+  }
