@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width", initial-scale="1.0"> 
         <title> Coding Quiz</title>
+        <link rel="stylesheet" href="./Assests/reset.css">
         <link rel="stylesheet" href="./Assests/Style.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     </head>
         <body>
         <!--Header, Timer and High-scores -->
         <header> 
-            <h2 class="Highscore-top" >
+            <h2 class="hs-top" >
                 <a href="highscore.html"> See high-score</a>
                 </h2>
         </header>
@@ -19,7 +20,9 @@
         <!--MAIN SECTION -->
         <main>
             <h1 class="center-title"> Code Quiz</h1>
-            <p class="text-content"> Try your best to answer the following coding questions as quickly as you can within the time set limit.</p>
+            <p class="text-content"> Try your best to answer the following coding questions as quickly as you can within the time set limit.
+                A wrong answered will deduct remaining time. Your score will be based on the remaining time left after all questions are answered.
+            </p>
             <div class="container-btn"><a class="inside-btn"
                  href="#" target="_blank" rel="nofollow"><span>START GAME!</span></a></div>
 
@@ -60,4 +63,10 @@
                         </a>
                     </button>
                 </div>
+
+        </main>
+
+        <!--Links to External JS Scripts-->
+        <script src="./Assests/script.js"></script>
+        </body>
 </html>

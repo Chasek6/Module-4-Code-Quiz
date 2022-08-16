@@ -1,0 +1,17 @@
+/* reset box sizing of elements on page */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    min-width: 100%;
+    line-height: 1;    
+
+}
+input, select, option,textarea, button {
+    font-family: inherit;
+}
