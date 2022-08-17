@@ -24,7 +24,9 @@ I created a timed Coding-Quiz that including multiple-choice questions that appl
 
 
 
-
+Screenshots
+![CQ1](./Assests/CQ1.PNG)
+![CQ2](./Assests/CQ2.PNG)
 
 
 Link used for Reference:
