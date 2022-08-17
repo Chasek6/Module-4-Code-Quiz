@@ -1,80 +1,38 @@
 <!DOCTYPE html>
-<html lang="EN">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width", initial-scale="1.0"> 
-    <!--Font links and stylesheet links-->
-        <link rel="stylesheet" href="./Assests/reset.css">
-        <link rel="stylesheet" href="./Assests/Style.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Play</title>
 
-        <title> Coding Quiz</title>
-    </head>
-        <body>
-        <!--Header, Timer and High-scores -->
-        <header> 
-
-        <ul id="nav"> <a href="./Assests/highscore.html">
-            <h2 li id="highscores">High-scores</li> 
-        </a></ul>
-        </header>
-        <div <h1> <h1 class="center-title"> Code Quiz</h1></h1> </body>
-
-        <ul id="Timer">Time remaining: <span id="Ticker"></span>
-           
-        <!--MAIN SECTION -->
-        <main>
-            <!-- <h1 class="center-title"> Code Quiz</h1> -->
-            <br
-            <p class="text-content"> Try your best to answer the following coding questions as quickly as you can within the time set limit.
-                A wrong answered will deduct remaining time. Your score will be based on the remaining time left after all questions are answered.
-            </p>
-
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.1/components/buttons/" rel="stylesheet">
+    <!--external css stylesheet-->
+    <!-- <link rel="stylesheet" href="./Assests/reset.css"> -->
+        <!-- <link rel="stylesheet" href="./Assests/Style.css"/> -->
+        <link rel="stylesheet" href="./Assests/Style.css">
+</head>
+<ul id="nav"> <a href="./Assests/highscore.html">
+    <h2 li id="highscores">High-scores</li> 
+</a></ul>
+<body>
+    <div class="container">
+        <div id="home"></div>
+        <h1>Let The Game Begin</h1>
+        <h2> Try your best to answer the following coding questions as quickly as you can within the time set limit.
+            A wrong answered will deduct remaining time. Your score will be based on the remaining time left after all questions are answered. </h2>
             
             <div class="container-btn"><a class="inside-btn"
-                 href="#" target="_blank" rel="nofollow"><span>START GAME!</span></a></div>
+                href="quiz.html" target="_blank" rel="nofollow"><span>START GAME!</span></a></div>
 
-                 <br
-                 <div class="choice-btn">
-                
-                    <button
-                        class="multi-btn"
-                        id="btn-1"
-                        answer="wrong">
-                        A.<span id="answer 1"></span>
-                    </button>
-                    <button
-                             class="multi-btn"
-                             id="btn-2"
-                               answer="wrong">
-                        B.<span id="answer 2"></span>
-                    </button>
-
-                    <button
-                         class="multi-btn"
-                          id="btn-3"
-                         answer="wrong">
-                         C. <span id="answer 3"></span>
-                </button>
-                   <button
-                        class="multi-btn"
-                       id="btn-4"
-                      answer="wrong">
-                      D. <span id="answer 4"></span>
-            </button>
-                </div>
-                <div class="input-btn">    
-                    <label for="I">Enter initials:</label>
-                    <input type="text" name="initials" id="initials"/>
-                    <button id="submit-btn">
-                        <a href="./Assests/highscore.html">submit</a>
-                        </a>
-                    </button>
+                <div class="container">
+                    <div id="quiz">
+                    </div>
+                    <span id="timer"></span>
+                    <span id="score"></span>
+                    <span id="results"></span>
                 </div>
 
-        </main>
-
-        <!--Links to External JS Scripts-->
-        <script src="./Assests/script.js"></script>
-        
+</body>
 </html>
