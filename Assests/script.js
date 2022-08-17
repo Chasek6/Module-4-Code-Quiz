@@ -1,13 +1,12 @@
 // Variables 
-
-var timerE1 = document.querySelector('.timer')
- var startButttonE1 =document.querySelector('.inside-btn')
- var ChoiceButtonE1 = document.querySelector('.choice-btn')
- var multiBtnE1 = document.querySelector('.multi-btn')
- var textE1 =document.querySelector('.input')
- var submitButtonE1 = document.querySelector('.#submit-btn')
-
-
-
- questions = 
- ["which "]
+var count = 60;
+var interval = setInterval(function(){
+  document.getElementById('count').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('count').innerHTML='Your out of time! Game Over!';
+    // or...
+    alert("You're out of time!");
+  }
+}, 1000);

@@ -32,4 +32,7 @@ https://stackoverflow.com/questions/32415347/how-to-create-multiple-pages-in-htm
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
 https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/
+https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz
+https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+
 
