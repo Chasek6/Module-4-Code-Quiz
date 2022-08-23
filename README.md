@@ -15,8 +15,8 @@ This is a timed Code-Quiz app that will test your knowledge by asking you a seri
 
 
 # Screenshots
-![CQ2](./Assests/CQ2.png)
-![CQ1](./Assests/CQ1.png)
+![CQ2.png](./Assests/CQ2.png)
+![CQ1.png](./Assests/CQ1.png)
 
 ## License
 This project is licensed under the MIT license.
