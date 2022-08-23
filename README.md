@@ -1,40 +1,29 @@
-# Module-4-Code-Quiz
 
-
-Web APIs: Code Quiz 
-
-
-- Description
-- Screenshots 
-- Links
-- Credits 
-
-
-Description 
-
-I created a timed Coding-Quiz that including multiple-choice questions that applied my current knowledge of HTML,CSS,and JavaScrip.
- The Code-Quiz will involve completing a coding assignment that will comprise of a combination of multiple-choice questions and interactive challenges. The object was to build a timed Code quiz that included multiple-choice questions. 
-
-
- Installation 
- - You can view the application using this hypertext link https://chasek6.github.io/Module-4-Code-Quiz/ 
- - Go to https://github.com/Chasek6/Module-4-Code-Quiz to view application.
- - Click on Code
- - Copy the SSH Key & Git Clone. 
+# Code Quiz
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Chasek6/code-quiz)
+## Description
+This is a timed Code-Quiz app that will test your knowledge by asking you a series of multiple choice coding related questions in 60 seconds. The goal is to complete as many as you can before the timer runs out. 
+## Table of Contents 
+  - [Code Quiz](#code-quiz)
+  - [Description](#description)
+  - [Screenshots](#screenshots)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
 
 
-Screenshots
-![CQ1](./Assests/CQ1.PNG)
-![CQ2](./Assests/CQ2.PNG)
+
+# Screenshots
+![CQ2](./Assests/CQ2.png)
+![CQ1](./Assests/CQ1.png)
+
+## License
+This project is licensed under the MIT license.
 
 
-Link used for Reference:
-https://stackoverflow.com/questions/32415347/how-to-create-multiple-pages-in-html
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
-https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/
-https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz
-https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+## Contributing
+Chase Stratton  
 
-
+## Questions
+If you have any questions about the repo, open an issue or contact [Chasek6](undefined) directly at quranstratton@gmail.com.
