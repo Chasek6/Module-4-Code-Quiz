@@ -15,7 +15,8 @@ This is a timed Code-Quiz app that will test your knowledge by asking you a seri
 
 
 # Screenshots
-![Uploading Screen Shot 2022-09-28 at 10.34.30 PM.png…]()
+<img width="1559" alt="QC" src="https://user-images.githubusercontent.com/108581086/192925842-32bb9607-8d71-4501-80e5-363ffbba3f2b.png">
+
 ![CQ.png](Assests/CQ.png)
 ![CQ1.png](Assests/CQ1.png)
 
