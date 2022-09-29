@@ -16,6 +16,7 @@ This is a timed Code-Quiz app that will test your knowledge by asking you a seri
 
 # Screenshots
 <img width="1559" alt="QC" src="https://user-images.githubusercontent.com/108581086/192925842-32bb9607-8d71-4501-80e5-363ffbba3f2b.png">
+![CODE QUIZ-logos_white](https://user-images.githubusercontent.com/108581086/192953716-e54f3f91-c6cb-4987-938f-b9a3e02720c2.png)
 
 
 
